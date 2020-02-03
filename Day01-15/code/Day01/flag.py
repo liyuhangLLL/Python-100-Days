@@ -31,7 +31,7 @@ def draw_star(x, y, radius):
     turtle.circle(-radius, 72)
     pos5 = turtle.pos()
     turtle.color('yellow', 'yellow')
-    turtle.begin_fill()
+    turtle.begin_fill() #开始填充
     turtle.goto(pos3)
     turtle.goto(pos1)
     turtle.goto(pos4)
@@ -43,7 +43,7 @@ def draw_star(x, y, radius):
 def main():
     """主程序"""
     turtle.speed(12)
-    turtle.penup()
+    turtle.penup() #将画笔提起
     x, y = -270, -180
     # 画国旗主体
     width, height = 540, 360
